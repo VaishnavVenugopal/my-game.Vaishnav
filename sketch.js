@@ -39,12 +39,12 @@ player.debug=true;
 
 }
 function preload(){
-  playerImg=loadImage("player-master/player.png");
-  rightplrimg=loadImage("rightplayer-master/Right_player.png");
-  leftplrimg=loadImage("leftplayer-master/leftplayer.png");
-  keyimg=loadImage("keyImage-master/key.png");
-  dog=loadImage("dog-master/dog.gif");
-  door1=loadImage("door-master/door.png")
+  playerImg=loadImage("player.png");
+  rightplrimg=loadImage("Right_player.png");
+  leftplrimg=loadImage("leftplayer.png");
+  keyimg=loadImage("key.png");
+  dog=loadImage("dog.gif");
+  door1=loadImage("door.png")
 }
 
 function draw() {
